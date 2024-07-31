@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* A propriedade flex-direction: column; faz a diferença. Ela instrui o contêiner flexível (.text-container) a organizar seus itens filhos (os textos e os botões) em uma coluna, em vez de uma linha. Isso garante que os botões fiquem abaixo dos textos, alinhados ao centro do parágrafo.  */
+    align-items: center;
+}
+
+.texts {
+    margin: 40px 40px 40px 0px;
+    text-align: justify;
+}
+
+h1, p{
+    color: white;
+    margin-left: 20px;
+}
+
+p{
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+
+strong{
+    color: rgb(1, 204, 204);
+}
+
+
+.buttons{
+    display: inline-block;
+    
+}
+
+.buttons a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 143, 143);
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttons a:hover{
+    background-color: rgb(4, 92, 92);
+}
+
+img{
+    height: 30rem;
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+
